@@ -1,0 +1,33 @@
+{
+  "name": "spawn-docker-experiment",
+  "version": "1.0.0",
+  "description": "experimenting with spawning a process inside a docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/spawn-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "dockerode",
+    "spawn",
+    "child_process"
+  ],
+  "author": "sethvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/spawn-docker/issues"
+  },
+  "homepage": "https://github.com/sethvincent/spawn-docker#readme",
+  "dependencies": {
+    "appa": "^6.1.1",
+    "dockerode": "github:apocas/dockerode",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "through2": "^2.0.3"
+  }
+}
